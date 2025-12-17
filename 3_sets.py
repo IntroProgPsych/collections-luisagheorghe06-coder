@@ -12,3 +12,8 @@
 
 # Write your code here:
 fruits = {"apple", "banana", "orange"}
+def add_fruit(fruit_set, new_fruit):
+    fruit_set.add(new_fruit)
+    return fruit_set
+updated_fruits = add_fruit(fruits, "kiwi")
+print(updated_fruits)
