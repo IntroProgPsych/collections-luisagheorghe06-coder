@@ -13,3 +13,8 @@
 # 
 # Write your code here:
 colors = ["red", "green", "blue", "yellow", "purple"]
+def color_info(items):
+    print(f"First color: {items[0]}")
+    print(f"Last color: {items[-1]}")
+    print(f"Second and third colors: {items[1:3]}")
+color_info(colors)
